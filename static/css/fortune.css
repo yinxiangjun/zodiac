@@ -1,0 +1,132 @@
+html {
+	font-family: 微软雅黑;
+	color: #3f2b56;
+}
+
+body {
+	background-color: white;
+}
+
+a:link {
+	color:#624c79;
+	text-decoration:none;
+}		/* 未被访问的链接 */
+a:visited {
+	color:#624c79;
+	text-decoration:none;
+}	/* 已被访问的链接 */
+a:hover {
+	color:#624c79;
+}	/* 鼠标指针移动到链接上 */
+a:active {
+	color:#624c79;
+}	/* 正在被点击的链接 */
+
+table {
+ 	border-collapse:collapse;
+ }
+
+table, th, td {
+	border: 1px solid white;
+}
+
+.ConstellationTable {
+	width: 100%;
+	height: 90%;
+	text-align: center;
+}
+
+.ConstellationTableCell {
+	
+}
+
+.xingzuo {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.xingzuotitle {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.xingzuotime {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.jinriyunshi {
+	color: #3f2b56;
+}
+
+.jinriyunshitable {
+	width: 100%;
+	text-align: center;
+	color: #3f2b56;
+	font-size: 20px;
+	background-color: white;
+}
+
+.jinriyunshitable .title {
+	height: 60px;
+	width: 25%;
+	font-weight: bold;
+	background-color: #c7bcd1;
+}
+
+.jinriyunshitable .content {
+	height: 60px;
+	width: 25%;
+	background-color: #e0dae2;
+}
+
+.jinriyunshidetail {
+	font-size: 16px;
+	line-height: 175%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.yunshititle {
+	color: #3f2b56;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 900;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.benzhouyunshi {
+	color: #3f2b56;
+}
+
+.benzhouyunshitime {
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.benzhouyunshitable {
+	width: 100%;
+	text-align: left;
+}
+
+.benzhouyunshitable .title {
+	height: 48px;
+	width: 100%;
+	font-weight: bold;
+	background-color: #c7bcd1;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.benzhouyunshitable .content {
+	width: 100%;
+	background-color: #e0dae2;
+	font-size: 16px;
+	line-height: 175%;
+	padding: 20px;
+}
+
